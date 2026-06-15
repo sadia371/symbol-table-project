@@ -1,0 +1,15 @@
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
